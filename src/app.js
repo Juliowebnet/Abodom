@@ -5,6 +5,7 @@ import {BrowserRouter as Router, Link, Route, Switch} from 'react-router-dom';
 //páginas
 import Inicio from './pages/inicio';
 import Contacto from './pages/contacto';
+import Productos from './pages/productos';
 
 //componentes
 import Header from './components/header';
@@ -22,8 +23,7 @@ function App(){
                     <h1>Página de las sucursales</h1>
                 </Route>
                 <Route path="/productos">
-                    <Header></Header>
-                    <h1>Página del catálogo</h1>
+                    <Productos/>
                 </Route>
                 <Route path="/nosotros">
                     <Header></Header>

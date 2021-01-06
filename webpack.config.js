@@ -27,7 +27,12 @@ module.exports = {
             {
                 test: /\.(scss|sass|css)$/,
                 use: [
-                    MiniCssExtractPlugin.loader,
+                    {
+                        loader: MiniCssExtractPlugin.loader,
+                        options: {
+                            publicPath: '../',
+                        },
+                    },
                     {
                         loader: 'css-loader'
                     },
@@ -47,7 +52,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(png|jpg|svg|ico)$/i,
+                test: /\.(png|jpg|svg|ico)$/,
                 use:[
                     {
                         loader: 'file-loader',
