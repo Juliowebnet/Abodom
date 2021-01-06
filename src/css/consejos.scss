@@ -1,0 +1,20 @@
+
+//modificamos valor del radius de los box
+$radius-large : 20px;
+
+.consejos-titulo-contenedor{
+    position: absolute;
+    top: -50px;
+    width: 100%;
+}
+.consejos-titulo{
+    background-color: #fff;
+    border-radius: 0 0 50px 50px;
+}
+.consejos-bloques-contenedor{
+    position: absolute;
+    bottom: -400px;
+}
+.seccion-siguenos{
+    margin-top: 450px;
+}
