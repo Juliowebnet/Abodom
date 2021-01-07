@@ -4,7 +4,8 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 const htmlPlugin = new HtmlWebpackPlugin({
     template: "./src/index.html",
-    filename: "./index.html"
+    filename: "./index.html",
+    publicPath: '/'
 })
 
 const bulmaPlugin = new MiniCssExtractPlugin({
@@ -76,6 +77,9 @@ module.exports = {
             },
         ]
     },
+    devServer: {
+        historyApiFallback: true,
+      },
     plugins:[htmlPlugin, bulmaPlugin],
     devtool: 'source-map'
 }

@@ -21,6 +21,7 @@ function App(){
                 <Route path="/sucursales">
                     <Header></Header>
                     <h1>Página de las sucursales</h1>
+                    <div className="test"></div>
                 </Route>
                 <Route path="/productos">
                     <Productos/>

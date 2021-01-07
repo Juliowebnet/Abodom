@@ -31,7 +31,7 @@ function CarouselSliders() {
                 </div> 
             </div>
             <div className="hero-head">
-                <Header></Header>
+                <Header page="inicio"></Header>
             </div>
             <div className="hero-body"></div>
             <div className="hero-foot"></div>
