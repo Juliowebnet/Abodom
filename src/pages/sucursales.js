@@ -19,6 +19,14 @@ function Sucursales() {
                     <Sucursal data={Data.sucursales[1]}/>
                     <Sucursal data={Data.sucursales[2]}/>
                     <Sucursal data={Data.sucursales[3]}/>
+                    <Sucursal data={Data.sucursales[4]}/>
+                    <Sucursal data={Data.sucursales[5]}/>
+                    <Sucursal data={Data.sucursales[6]}/>
+                    <Sucursal data={Data.sucursales[7]}/>
+                    <Sucursal data={Data.sucursales[8]}/>
+                    <Sucursal data={Data.sucursales[9]}/>
+                    <Sucursal data={Data.sucursales[10]}/>
+                    <Sucursal data={Data.sucursales[11]}/>
                 </div>
             </section>
             <Footer/>
