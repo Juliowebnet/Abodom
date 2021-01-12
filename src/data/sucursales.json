@@ -1,0 +1,184 @@
+{
+    "sucursales":[
+        {
+            "nombre": "A01 - Sto Dgo. - Haina",
+            "img": [
+                "../img/sucursal1-a.jpg",
+                "../img/sucursal1-b.jpg",
+                "../img/sucursal1-c.jpg",
+                "../img/sucursal1-d.jpg",
+                "../img/sucursal1-e.jpg"
+            ],
+            "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.7471746597685!2d-70.0242799553046!3d18.41595018137696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea560f20d607205%3A0xa224f08ac5d864e6!2sAbonos%20Dominicanos!5e0!3m2!1ses!2sdo!4v1610336531158!5m2!1ses!2sdo",
+            "gerente": "Rafael Lorenzo / Roddy Garcia",
+            "telefono": "(809)-534-0630",
+            "email": "rlorenzo@abodom.do",
+            "direccion": "Av. Central Rio Haina, Almacen #6. Terminal Granelera del Caribe. Bella Vista, Bajos de Haina."
+        },
+        {
+            "nombre": "A03 - Azua y Zona Sur",
+            "img": [
+                "../img/sucursal2-a.jpg",
+                "../img/sucursal2-b.jpg",
+                "../img/sucursal2-c.jpg",
+                "../img/sucursal2-d.jpg",
+                "../img/sucursal2-e.jpg"
+            ],
+            "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d946.1613644333097!2d-70.73266108910649!3d18.454399955159857!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ebaa3e3bce81f5d%3A0xb062dcbed0173b9d!2sCarr.%20S%C3%A1nchez%2012%2C%20Azua%2071000!5e0!3m2!1ses!2sdo!4v1610344595395!5m2!1ses!2sdo",
+            "gerente": "Nelson Sánchez",
+            "telefono": "(849) 451-0631",
+            "email": "nsanchez@abodom.do",
+            "direccion": "Carretera Sanchez Km 8 1/2, No. 12,  Azua."
+        },
+        {
+            "nombre": "A04 - Hato Mayor y Zona Este",
+            "img": [
+                "../img/sucursal3-a.jpg",
+                "../img/sucursal3-b.jpg",
+                "../img/sucursal3-c.jpg",
+                "../img/sucursal3-d.jpg",
+                "../img/sucursal3-e.jpg"
+            ],
+            "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d944.449918304017!2d-69.25515107085734!3d18.762483069043114!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8eaf3f904c72e1a1%3A0xfbb851de72637fb7!2sCalle%20Padre%20Pe%C3%B1a%20%26%20Calle%20Duarte%2C%20Hato%20Mayor%20del%20Rey%2025000!5e0!3m2!1ses!2sdo!4v1610390549279!5m2!1ses!2sdo",
+            "gerente": "Ender Carrasco",
+            "telefono": "(829) 755-5093",
+            "email": "ecarrasco@abodom.do",
+            "direccion": "Calle Duarte, Esquina Padre Peña No. 19, Hato Mayor del Rey."
+        },
+        {
+            "nombre": "A06 - Villa La Mata",
+            "img": [
+                "../img/sucursal4-a.jpg",
+                "../img/sucursal4-b.jpg",
+                "../img/sucursal4-c.jpg",
+                "../img/sucursal4-d.jpg",
+                "../img/sucursal4-e.jpg"
+            ],
+            "urlMapa": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2676.7471746597685!2d-70.0242799553046!3d18.41595018137696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ea560f20d607205%3A0xa224f08ac5d864e6!2sAbonos%20Dominicanos!5e0!3m2!1ses!2sdo!4v1610336531158!5m2!1ses!2sdo",
+            "gerente": "Gabriel Adames",
+            "telefono": "(849) 451-0630",
+            "email": "gadames@abodom.do",
+            "direccion": "Calle Duarte No. 170-A, Municipio Villa La Mata, Cotuí, Provincia Duarte."
+        },
+        {
+            "nombre": "A07 - Las Guaranas",
+            "img": [
+                "../img/sucursal5-a.jpg",
+                "../img/sucursal5-b.jpg",
+                "../img/sucursal5-c.jpg",
+                "../img/sucursal5-d.jpg",
+                "../img/sucursal5-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Gabriel Adames",
+            "telefono": "(849) 451-0631",
+            "email": "gadames@abodom.do",
+            "direccion": "Calle Duarte, No. 204 Los Genao,  Las Guaranas, San Francisco de Macoris, Provincia Duarte."
+        },
+        {
+            "nombre": "A08 - La Reforma",
+            "img": [
+                "../img/sucursal6-a.jpg",
+                "../img/sucursal6-b.jpg",
+                "../img/sucursal6-c.jpg",
+                "../img/sucursal6-d.jpg",
+                "../img/sucursal6-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Juan Luis Mercedes",
+            "telefono": "(829) 748-7936",
+            "email": "jmercedes@abodom.do",
+            "direccion": "Calle Pincipal No. 143, Sector  La Reforma, Limón de Yuna, Municipio Villa Rivas, Provincia Duarte."
+        },
+        {
+            "nombre": "A09 - Jima Abajo, La Vega",
+            "img": [
+                "../img/sucursal7-a.jpg",
+                "../img/sucursal7-b.jpg",
+                "../img/sucursal7-c.jpg",
+                "../img/sucursal7-d.jpg",
+                "../img/sucursal7-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Manuel Alberto Pascual",
+            "telefono": "(829) 755-8817",
+            "email": "mpascual@abodom.do",
+            "direccion": "Calle Benito Monción, Esquina Salomé Ureña, Jima Abajo, La Vega."
+        },
+        {
+            "nombre": "A10 - Castañuelas",
+            "img": [
+                "../img/sucursal8-a.jpg",
+                "../img/sucursal8-b.jpg",
+                "../img/sucursal8-c.jpg",
+                "../img/sucursal8-d.jpg",
+                "../img/sucursal8-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Uilver García",
+            "telefono": "(829) 748-7570",
+            "email": "ugarcia@abodom.do",
+            "direccion": "Calle 30 de Mayo No. 111, Castañuelas, Monte Cristi."
+        },
+        {
+            "nombre": "A11 - La Vega",
+            "img": [
+                "../img/sucursal9-a.jpg",
+                "../img/sucursal9-b.jpg",
+                "../img/sucursal9-c.jpg",
+                "../img/sucursal9-d.jpg",
+                "../img/sucursal9-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Manuel Alberto Pascual",
+            "telefono": "(829) 755-8817",
+            "email": "mpascual@abodom.do",
+            "direccion": "Autopista Duarte, No.3, El Pinito, Pontón, La Vega."
+        },
+        {
+            "nombre": "A12 - Guayacanes",
+            "img": [
+                "../img/sucursal10-a.jpg",
+                "../img/sucursal10-b.jpg",
+                "../img/sucursal10-c.jpg",
+                "../img/sucursal10-d.jpg",
+                "../img/sucursal10-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Vandy Gomez",
+            "telefono": "(829) 748-7949",
+            "email": "vgomez@abodom.do",
+            "direccion": "Autopista Duarte No. 10, Cruce de Guayacanes, Valverde Mao."
+        },
+        {
+            "nombre": "A13 - Constanza",
+            "img": [
+                "../img/sucursal11-a.jpg",
+                "../img/sucursal11-b.jpg",
+                "../img/sucursal11-c.jpg",
+                "../img/sucursal11-d.jpg",
+                "../img/sucursal11-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "Pedro Arias",
+            "telefono": "(849) 455-0380",
+            "email": "parias@abodom.do",
+            "direccion": "Calle Antonio Abud Isaac, No. 800, séctor Colonia Española, Constanza."
+        },
+        {
+            "nombre": "A14 - Agroluz Mao",
+            "img": [
+                "../img/sucursal12-a.jpg",
+                "../img/sucursal12-b.jpg",
+                "../img/sucursal12-c.jpg",
+                "../img/sucursal12-d.jpg",
+                "../img/sucursal12-e.jpg"
+            ],
+            "urlMapa": "",
+            "gerente": "José Enmanuel Molina",
+            "telefono": "(849) 455-0291",
+            "email": "jmolina@abodom.do",
+            "direccion": "Avenida Desiderio Arias Carretera Mao-Santiago Rodriguez, No. 165, Santa Cruz de Mao, Valverde."
+        }
+    ]
+}

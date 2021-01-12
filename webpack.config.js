@@ -16,7 +16,8 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: 'js/main.js'
+        filename: 'js/main.js',
+        publicPath: '/'
     },
     module: {
         rules: [
@@ -78,7 +79,9 @@ module.exports = {
         ]
     },
     devServer: {
-        historyApiFallback: true,
+        historyApiFallback: {
+            index: "/"
+        },
       },
     plugins:[htmlPlugin, bulmaPlugin],
     devtool: 'source-map'

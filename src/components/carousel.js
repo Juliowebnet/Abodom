@@ -4,8 +4,8 @@ import bulmaCarousel from 'bulma-carousel/dist/js/bulma-carousel.min.js';
 import 'bulma-carousel/dist/css/bulma-carousel.min.css'
 //imagenes 
 import slider1 from '../img/slider1-min.jpg'
-import slider2 from '../img/slider2-min.jpg'
-import slider3 from '../img/slider3-min.jpg'
+import slider2 from '../img/slider2-min.png'
+import slider3 from '../img/slider3-min.png'
 //componentes
 import Header from './header'
 
@@ -18,7 +18,7 @@ function CarouselSliders() {
         }); 
   });
     return(
-        <section className="hero is-large has-carousel">
+        <section className="hero is-medium has-carousel">
             <div id="carousel-abodom" className="hero-carousel">
                 <div className="item-1">
                     <img src={slider1} />
