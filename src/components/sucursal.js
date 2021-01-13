@@ -6,7 +6,7 @@ function Sucursal(props) {
         <div className="sucursal px-6">
             <div className="columns px-4">
                 {/* nombre sucursal */}
-                <div className="column nombre-sucursal is-3">
+                <div className="column nombre-sucursal is-4">
                     <h1 className="has-text-centered is-uppercase has-text-weight-bold">{props.data.nombre}</h1>
                 </div>
             </div>
