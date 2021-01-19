@@ -3,6 +3,7 @@ import React from 'react';
 //Componentes
 import Carousel from '../components/carousel';
 import Footer from '../components/footer';
+import Header from '../components/header';
 
 //imagenes
 import CostoIcon from '../img/costo-icon.svg';
@@ -19,13 +20,24 @@ import Consejo2 from '../img/consejo2.jpg'
 import Consejo3 from '../img/consejo3.jpg'
 
 function Inicio() {
+    function Cabecera(){
+        if(screen.width > 700){
+            return(
+                <Carousel/>
+            )
+        }else {
+            return(
+                <Header/>
+            )
+        }
+    }
     return(
         <div>
-            <Carousel></Carousel>
+            <Cabecera/>
             <section className="section mb-6">
                 <div className="container">
                     <div className="mb-6">
-                        <h1 className="is-size-3 has-text-centered is-uppercase has-text-primary"><b>¿Por qué nuestros abonos y fertilizantes son mejores que el abono convencional?</b></h1>
+                        <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>¿Por qué nuestros abonos y fertilizantes son mejores que el abono convencional?</b></h1>
                     </div>
                     <div className="columns is-centered">
                         <div className="column is-2 mx-6">
@@ -59,9 +71,9 @@ function Inicio() {
                     <figure className="image">
                         <img src={CultivosFondo} alt=""/>
                     </figure>
-                    <div className="columns is-centered consejos-titulo-contenedor">
-                        <div className="column is-8 consejos-titulo">
-                            <p className="is-size-3 has-text-centered is-uppercase has-text-primary"><b>Consejos para el <br/> planeamiento de cultivos</b></p>
+                    <div className="columns is-centered consejos-titulo-contenedor is-fullwidth">
+                        <div className="column is-8 is-offset-x consejos-titulo">
+                            <p className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>Consejos para el <br/> planeamiento de cultivos</b></p>
                         </div>
                     </div>
                     <div className="columns is-centered consejos-bloques-contenedor">
@@ -112,8 +124,8 @@ Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de ve
                         </figure>
                     </div>
                     <div className="columns is-centered">
-                        <a className="column is-1" href="https://www.instagram.com/abodomrd/">
-                            <button className="button is-primary">SÍGUENOS</button>
+                        <a className="column is-3 is-offset-x" href="https://www.instagram.com/abodomrd/">
+                            <button className="button is-primary is-fullwidth">SÍGUENOS</button>
                         </a>
                     </div>
                 </div>

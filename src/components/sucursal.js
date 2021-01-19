@@ -3,7 +3,7 @@ import React from 'react'
 
 function Sucursal(props) {
     return(
-        <div className="sucursal px-6">
+        <div className="sucursal">
             <div className="columns px-4">
                 {/* nombre sucursal */}
                 <div className="column nombre-sucursal is-4">

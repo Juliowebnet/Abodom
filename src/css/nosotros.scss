@@ -1,5 +1,5 @@
 .seccion-nosotros{
-    margin-bottom: 400px;
+    margin-bottom: 700px;
 }
 
 .contenedor-nosotros{
@@ -10,4 +10,10 @@
 .texto-nosotros{
     background: $scheme-main;
     border-radius: 50px;
+}
+
+@media only screen and (max-width: 700px){
+    .contenedor-nosotros{
+        top: 150px;
+    }
 }

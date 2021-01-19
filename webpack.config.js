@@ -1,16 +1,39 @@
 const path = require('path');
-const HtmlWebpackPlugin = require ("html-webpack-plugin")
-const MiniCssExtractPlugin = require('mini-css-extract-plugin')
+const HtmlWebpackPlugin = require ("html-webpack-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const ImageMinimizerPlugin = require('image-minimizer-webpack-plugin');
 
 const htmlPlugin = new HtmlWebpackPlugin({
     template: "./src/index.html",
     filename: "./index.html",
     publicPath: '/'
-})
+});
 
 const bulmaPlugin = new MiniCssExtractPlugin({
       filename: './css/mystyles.css'
-    })
+    });
+
+const imgMini = new ImageMinimizerPlugin({
+    minimizerOptions: {
+        // Lossless optimization with custom option
+        // Feel free to experiment with options for better result for you
+        plugins: [
+          ['gifsicle', { interlaced: true }],
+          ['jpegtran', { progressive: true }],
+          ['optipng', { optimizationLevel: 5 }],
+          [
+            'svgo',
+            {
+              plugins: [
+                {
+                  removeViewBox: false,
+                },
+              ],
+            },
+          ],
+        ],
+    },
+});
 
 module.exports = {
     entry: './src/index.js',
@@ -83,6 +106,6 @@ module.exports = {
             index: "/"
         },
       },
-    plugins:[htmlPlugin, bulmaPlugin],
+    plugins:[htmlPlugin, bulmaPlugin, imgMini],
     devtool: 'source-map'
 }
