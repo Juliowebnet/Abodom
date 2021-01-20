@@ -1,11 +1,15 @@
-import React, {useEffect} from 'react'
-import {Link} from 'react-router-dom'
+import React, {useEffect} from 'react';
+import {Link} from 'react-router-dom';
+
+//traducciones
+import {useTranslation} from 'react-i18next';
 
 //logo
 import logoVerde from '../img/logo-verde.svg';
 import logoBlanco from '../img/logo-blanco.svg';
 
 function Header(props) {
+    const [t, i18n] = useTranslation("global");
     function MenuBurger(){
         // Get all "navbar-burger" elements
          const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -43,19 +47,19 @@ function Header(props) {
             return(
                <div className="navbar-end">
                     <Link to="/" className="navbar-item has-text-white has-text-weight-bold">
-                        INICIO
+                        {t("menu.page-home")}
                     </Link>
                     <Link to="/nosotros" className="navbar-item has-text-white has-text-weight-bold">
-                        NOSOTROS
+                        {t("menu.page-about-us")}
                     </Link>
                     <Link to="/productos" className="navbar-item has-text-white has-text-weight-bold">
-                        PRODUCTOS
+                        {t("menu.page-products")}
                     </Link>
                     <Link to="/sucursales" className="navbar-item has-text-white has-text-weight-bold">
-                        SUCURSALES
+                        {t("menu.page-branch-offices")}
                     </Link>
                     <Link to="/contacto" className="navbar-item has-text-white has-text-weight-bold">
-                        CONTACTO
+                        {t("menu.page-contact")}
                     </Link>
                 </div> 
             )
@@ -63,19 +67,19 @@ function Header(props) {
             return(
                 <div className="navbar-end">
                     <Link to="/" className="navbar-item has-text-weight-bold">
-                        INICIO
+                        {t("menu.page-home")}
                     </Link>
                     <Link to="/nosotros" className="navbar-item has-text-weight-bold">
-                        NOSOTROS
+                        {t("menu.page-about-us")}
                     </Link>
                     <Link to="/productos" className="navbar-item has-text-weight-bold">
-                         PRODUCTOS
+                        {t("menu.page-products")}
                     </Link>
                     <Link to="/sucursales" className="navbar-item has-text-weight-bold">
-                        SUCURSALES
+                        {t("menu.page-branch-offices")}
                     </Link>
                     <Link to="/contacto" className="navbar-item has-text-weight-bold">
-                        CONTACTO
+                        {t("menu.page-contact")}
                     </Link>
                 </div>
             )
@@ -100,7 +104,14 @@ function Header(props) {
                     <div className="navbar-item">
                         <div className="filed is-grouped">
                             <p className="control">
-                                <button className="button is-primary">ES</button>
+                                <button className="button is-primary" onClick={()=>{i18n.changeLanguage("es")}}>ES</button>
+                            </p>
+                        </div>
+                    </div>
+                    <div className="navbar-item">
+                        <div className="filed is-grouped">
+                            <p className="control">
+                                <button className="button is-primary" onClick={()=>{i18n.changeLanguage("en")}}>EN</button>
                             </p>
                         </div>
                     </div>

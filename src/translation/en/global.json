@@ -1,0 +1,9 @@
+{
+    "menu":{
+        "page-home": "HOME",
+        "page-about-us": "ABOUT US",
+        "page-products": "PRODUCTS",
+        "page-branch-offices": "BRANCH OFFICES",
+        "page-contact": "CONTACT"
+    }
+}

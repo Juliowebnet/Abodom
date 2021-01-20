@@ -1,0 +1,9 @@
+{
+    "menu":{
+        "page-home": "INICIO",
+        "page-about-us": "NOSOTROS",
+        "page-products": "PRODUCTOS",
+        "page-branch-offices": "SUCURSALES",
+        "page-contact": "CONTACTO"
+    }
+}
