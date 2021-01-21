@@ -5,5 +5,60 @@
         "page-products": "PRODUCTS",
         "page-branch-offices": "BRANCH OFFICES",
         "page-contact": "CONTACT"
+    },
+    "home":{
+        "title-1": "WHY ARE OUR FERTILIZERS BETTER THAN CONVENTIONAL FERTILIZERS?",
+        "text-icon-1": "PROVIDE MORE NUTRIENTS",
+        "text-icon-2": "LOWEST COST",
+        "text-icon-3": "PROVIDE NUTRIENTS MUCH FASTER",
+        "paragraph-icon": "Plan to use the entire surface of your garden. Through techniques such as vertical cultivation, cultivation in succession and intercropping you can make the most of the space available.",
+        "title-2-a": "TIPS FOR ",
+        "title-2-b": "CROP PLANNING",
+        "tip-title-1": "VERTICAL CULTIVATION",
+        "tip-text-1": "To save space in your garden, grow climbing beans, peas, cucumbers and pumpkins on trellises. Existing gates, posts, wire cages and trellises serve as support.",
+        "tip-title-2": "CULTURE IN SUCCESSION",
+        "tip-text-2": "This technique consists of growing a plant like lettuce in the spring and replacing it when the heat begins with another plant like beans. In late summer the process can be reversed and the beans can be replaced by a cool-season crop such as lettuce or radishes.",
+        "tip-titel-3": "INTERCROPPING",
+        "tip-text-3": "Intercropping consists of planting fast growing vegetables along with slow growing vegetables. An example of this technique may be planting radishes, lettuce or green onions along with tomato plants in wire cages.",
+        "follow-title": "FOLLOW US ON INSTAGRAM",
+        "follow-button": "FOLLOW US",
+        "form-title": "SIGN UP FOR OUR MONTHLY NEWSLETTERS",
+        "form-button": "SIGN UP"
+    },
+    "about-us":{
+        "title": "WHO ARE WE?",
+        "text-1": "is your best option when it comes to sowing and obtaining an abundant crop. It is thanks to the quality of production that your products have. We are a company committed to offering a fast and personalized service with a staff with years of experience in the field.",
+        "text-2": "We have a wide variety of solutions for each type of soil according to your needs. Come and see for yourself the quality of our products."
+    },
+    "products":{
+        "products-title": "OUR PRODUCTS",
+        "product-1": "GRANULATED FERTILIZER",
+        "product-2": "SOLUBLE FERTILIZER",
+        "product-3": "FOLIAR FERTILIZER",
+        "product-4-a": "SPECIAL FERTILIZERS",
+        "product-4-b": "(FORMULAS MADE ACCORDING TO THE NEEDS OF EACH CLIENT)",
+        "product-5": "AMINO ACIDS",
+        "product-6": "ORGANIC FERTILIZER",
+        "services-title": "OUR SERVICES",
+        "service-1": "TECHNICAL SERVICE",
+        "service-2": "SOIL ANALYSIS",
+        "service-3": "NUTRITION PROGRAMS",
+        "formulas-title": "OUR FORMULAS",
+        "formula-1": "Potassium Chloride (KLC)",
+        "formula-2": "Potassium Sulfate (SOP)",
+        "formula-3": "Ammonium Sulphate",
+        "formula-4": "Zinc Sulphate",
+        "formula-5": "Micronutrients",
+        "formula-6": "Kiserite (Magnesium)"
+    },
+    "form":{
+        "form-title": "CONTACT FORM",
+        "input-1": "Name",
+        "input-2": "Email",
+        "input-3": "Message",
+        "button": "SEND"
+    },
+    "contact":{
+        "hours": "Business Hours: Monday to Friday from 7:30 A.M. to 5:00 P.M."
     }
 }

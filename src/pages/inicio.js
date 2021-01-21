@@ -5,6 +5,9 @@ import Carousel from '../components/carousel';
 import Footer from '../components/footer';
 import Header from '../components/header';
 
+//libreria para la traduucion
+import {useTranslation} from 'react-i18next'
+
 //imagenes
 import CostoIcon from '../img/costo-icon.svg';
 import TiempoIcon from '../img/tiempo-icon.svg';
@@ -20,6 +23,7 @@ import Consejo2 from '../img/consejo2.jpg'
 import Consejo3 from '../img/consejo3.jpg'
 
 function Inicio() {
+    const [t, i18n] = useTranslation("global");
     function Cabecera(){
         if(screen.width > 700){
             return(
@@ -37,31 +41,31 @@ function Inicio() {
             <section className="section mb-6">
                 <div className="container">
                     <div className="mb-6">
-                        <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>¿Por qué nuestros abonos y fertilizantes son mejores que el abono convencional?</b></h1>
+                        <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>{t("home.title-1")}</b></h1>
                     </div>
                     <div className="columns is-centered">
                         <div className="column is-2 mx-6">
                             <figure className="image px-5 py-5">
                                 <img src={NutrientesIcon} alt="Nutrientes-icon"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Aportan mayor cantidad de nutrientes</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("home.text-icon-1")}</b></p>
                         </div>
                         <div className="column is-2 mx-6">
                             <figure className="image px-5 py-5">
                                 <img src={CostoIcon} alt="Costo-icono"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Menor costo</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("home.text-icon-2")}</b></p>
                         </div>
                         <div className="column is-2 mx-6">
                             <figure className="image px-5 py-5">
                                 <img src={TiempoIcon} alt="Tiempo-icono"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Aportan nutrientes mucho más rápido</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("home.text-icon-3")}</b></p>
                         </div>
                     </div>
                     <div className="has-text-centered columns is-centered mt-6">
                         <p className="column is-8">
-                        Planée utilizar toda la superficie de su huerta. Por medio de técnicas como el cultivo vertical, el cultivo en sucesión y el cultivo intercalado podrá sacar el máximo provecho del espacio disponible.
+                        {t("home.paragraph-icon")}
                         </p>
                     </div>
                 </div>
@@ -73,33 +77,30 @@ function Inicio() {
                     </figure>
                     <div className="columns is-centered consejos-titulo-contenedor is-fullwidth">
                         <div className="column is-8 is-offset-x consejos-titulo">
-                            <p className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>Consejos para el <br/> planeamiento de cultivos</b></p>
+                            <p className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary"><b>{t("home.title-2-a")}<br/>{t("home.title-2-b")}</b></p>
                         </div>
                     </div>
                     <div className="columns is-centered consejos-bloques-contenedor">
                         <div className="column is-3 p-4 box mx-4">
-                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>Cultivo <br/> vertical</b></h2>
+                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>{t("home.tip-title-1")}</b></h2>
                             <figure className="image mb-4">
                                 <img src={Consejo1} alt=""/>
                             </figure>
-                            <p className="has-text-justified">Para ahorrar espacio en su huerta cultive las judías trepadoras, las arvejas, los pepinos y las calabazas en espalderas.
-Las verjas, los postes, las jaulas de alambre y las espalderas existentes sirven como soporte.</p>
+                            <p className="has-text-justified">{t("home.tip-text-1")}</p>
                         </div>
                         <div className="column is-3 p-4 box mx-4">
-                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>Cultivo <br/> en sucesión</b></h2>
+                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>{t("home.tip-title-2")}</b></h2>
                             <figure className="image mb-4">
                                 <img src={Consejo2} alt=""/>
                             </figure>
-                            <p className="has-text-justified">Esta técnica consiste en cultivar una planta como la lechuga en la primavera y reemplazarla cuando empieza el calor por otra planta como las judías.
-A fines del verano el proceso puede invertirse y las judías pueden reemplazarse por un cultivo de estación fría como la lechuga o los rábanos.</p>
+                            <p className="has-text-justified">{t("home.tip-text-2")}</p>
                         </div>
                         <div className="column is-3 p-4 box mx-4">
-                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>Cultivo <br/> intercalado</b></h2>
+                            <h2 className="is-size-4 is-uppercase has-text-primary has-text-centered mt-4 mb-5"><b>{t("home.tip-titel-3")}</b></h2>
                             <figure className="image mb-4">
                                 <img src={Consejo3} alt=""/>
                             </figure>
-                            <p className="has-text-justified">El cultivo intercalado consiste en plantar vegetales de crecimiento rápido junto con vegetales de crecimiento lento.
-Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de verdeo junto con plantas de tomate en jaulas de alambre.</p>
+                            <p className="has-text-justified">{t("home.tip-text-3")}</p>
                         </div>
                     </div>
                 </div>
@@ -107,7 +108,7 @@ Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de ve
             <section className="section seccion-siguenos">
                 <div className="container">
                     <div className="mb-6">
-                        <h1 className="is-size-3 has-text-centered is-uppercase has-text-primary"><b>Síguenos en Instagram</b></h1>
+                        <h1 className="is-size-3 has-text-centered is-uppercase has-text-primary"><b>{t("home.follow-title")}</b></h1>
                     </div>
                     <div className="columns is-centered">
                         <figure className="column is-2">
@@ -125,7 +126,7 @@ Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de ve
                     </div>
                     <div className="columns is-centered">
                         <a className="column is-3 is-offset-x" href="https://www.instagram.com/abodomrd/">
-                            <button className="button is-primary is-fullwidth">SÍGUENOS</button>
+                            <button className="button is-primary is-fullwidth">{t("home.follow-button")}</button>
                         </a>
                     </div>
                 </div>
@@ -140,7 +141,7 @@ Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de ve
                         </div>
                         <div className="column is-4">
                             <div className="box">
-                                <h1 className="has-text-centered is-uppercase has-text-primary is-size-5 mb-4"><b>Regístrate a nuestros boletínes mensuales</b></h1>
+                                <h1 className="has-text-centered is-uppercase has-text-primary is-size-5 mb-4"><b>{t("home.form-title")}</b></h1>
                                 <form action="">
                                     <div className="field">
                                         <div className="control has-icons-left">
@@ -152,7 +153,7 @@ Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de ve
                                     </div>
                                     <div className="field">
                                         <div className="control">
-                                            <button type="submit" className="button is-primary is-fullwidth">REGISTRAR</button>
+                                            <button type="submit" className="button is-primary is-fullwidth">{t("home.form-button")}</button>
                                         </div>
                                     </div>
                                 </form>

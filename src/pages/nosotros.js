@@ -1,5 +1,8 @@
 import React from 'react';
 
+//importamos i18next para las traducciones
+import {useTranslation} from 'react-i18next'
+
 //componentes
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -8,6 +11,7 @@ import Footer from '../components/footer';
 import imgNosotros from '../img/nosotros2.png'
 
 function Nosotros(){
+    const [t, i18n] = useTranslation("global");
     return(
         <div>
             <Header/>
@@ -18,9 +22,9 @@ function Nosotros(){
                     </figure>
                     <div className="columns is-centered contenedor-nosotros">
                         <div className="column is-8 px-6 texto-nosotros">
-                            <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary mt-5 mb-6 has-text-weight-bold">¿quienes somos?</h1>
-                            <p className="has-text-justified my-5"><b className="has-text-primary">Abonos Dominicanos</b> es tu mejor opción a la hora de sembrar y obtener un cultivo abundante. Es gracias a la calidad de producción que tienen sus productos. Somos una empresa comprometida con ofrecer un servicio rápido y personalizado con un personal con años de experiencia en la materia.</p>
-                            <p className="has-text-justified my-5">Contamos con una gran variedad  de soluciones para cada tipo de suelo según su necesidad. Ven y comprueba tú mismo la calidad de nuestros productos.</p>
+                            <h1 className="is-size-3-desktop is-size-5-mobile has-text-centered is-uppercase has-text-primary mt-5 mb-6 has-text-weight-bold">{t("about-us.title")}</h1>
+                            <p className="has-text-justified my-5"><b className="has-text-primary">Abonos Dominicanos</b> {t("about-us.text-1")}</p>
+                            <p className="has-text-justified my-5">{t("about-us.text-2")}</p>
                         </div>
                     </div>
                 </div>

@@ -5,5 +5,60 @@
         "page-products": "PRODUCTOS",
         "page-branch-offices": "SUCURSALES",
         "page-contact": "CONTACTO"
+    },
+    "home":{
+        "title-1": "¿POR QUÉ NUESTROS ABONOS Y FERTILIZANTES SON MEJORES QUE EL ABONO CONVENCIONAL?",
+        "text-icon-1": "APORTAN MAYOR CANTIDAD DE NUTRIENTES",
+        "text-icon-2": "MENOR COSTO",
+        "text-icon-3": "APORTAN NUTRIENTES MUCHO MÁS RÁPIDO",
+        "paragraph-icon": "Planee utilizar toda la superficie de su huerta. Por medio de técnicas como el cultivo vertical, el cultivo en sucesión y el cultivo intercalado podrá sacar el máximo provecho del espacio disponible.",
+        "title-2-a": "CONSEJOS PARA EL ",
+        "title-2-b": "PLANEAMIENTO DE CULTIVOS",
+        "tip-title-1": "CULTIVO VERTICAL",
+        "tip-text-1": "Para ahorrar espacio en su huerta cultive las judías trepadoras, las arvejas, los pepinos y las calabazas en espalderas. Las verjas, los postes, las jaulas de alambre y las espalderas existentes sirven como soporte.",
+        "tip-title-2": "CULTIVO EN SUCESIÓN",
+        "tip-text-2": "Esta técnica consiste en cultivar una planta como la lechuga en la primavera y reemplazarla cuando empieza el calor por otra planta como las judías. A fines del verano el proceso puede invertirse y las judías pueden reemplazarse por un cultivo de estación fría como la lechuga o los rábanos.",
+        "tip-titel-3": "CULTIVO INTERCALADO",
+        "tip-text-3": "El cultivo intercalado consiste en plantar vegetales de crecimiento rápido junto con vegetales de crecimiento lento. Un ejemplo de esta técnica puede ser plantar rábanos, lechuga o cebollas de verdeo junto con plantas de tomate en jaulas de alambre.",
+        "follow-title": "SÍGUENOS EN INSTAGRAM",
+        "follow-button": "SÍGUENOS",
+        "form-title": "REGÍSTRATE A NUESTROS BOLETÍNES MENSUALES",
+        "form-button": "REGISTRAR"
+    },
+    "about-us":{
+        "title": "¿QUIENES SOMOS?",
+        "text-1": "es tu mejor opción a la hora de sembrar y obtener un cultivo abundante. Es gracias a la calidad de producción que tienen sus productos. Somos una empresa comprometida con ofrecer un servicio rápido y personalizado con un personal con años de experiencia en la materia.",
+        "text-2": "Contamos con una gran variedad de soluciones para cada tipo de suelo según su necesidad. Ven y comprueba tú mismo la calidad de nuestros productos."
+    },
+    "products":{
+        "products-title": "NUESTROS PRODUCTOS",
+        "product-1": "FERTILIZANTE GRANULADO",
+        "product-2": "FERTILIZANTE SOLUBLE",
+        "product-3": "FERTILIZANTE FOLIAR",
+        "product-4-a": "FERTILIZANTES ESPECIALES",
+        "product-4-b": "(FORMULAS HECHAS SEGÚN LAS NECESIDADES DE CADA CLIENTE)",
+        "product-5": "AMINOÁCIDOS",
+        "product-6": "FERTILIZANTE ORGÁNICO",
+        "services-title": "NUESTROS SERVICIOS",
+        "service-1": "SERVICIO TÉCNICO",
+        "service-2": "ANÁLISIS DE SUELO",
+        "service-3": "PROGRAMAS DE NUTRICIÓN",
+        "formulas-title": "NUESTRAS FÓRMULAS",
+        "formula-1": "Cloruro de Paotasio (KLC)",
+        "formula-2": "Sulfato de Potasio (SOP)",
+        "formula-3": "Sulfato de Amonio",
+        "formula-4": "Sulfato de Zinc",
+        "formula-5": "Micronutrientes",
+        "formula-6": "Kiserite (Magnesio)"
+    },
+    "form":{
+        "form-title": "FORMULARIO DE CONTACTO",
+        "input-1": "Nombre",
+        "input-2": "Email",
+        "input-3": "Mensaje",
+        "button": "ENVIAR"
+    },
+    "contact":{
+        "hours": "Horario Administrativo: Lunes a Viernes de 7:30 A.M. a 5:00 P.M."
     }
 }

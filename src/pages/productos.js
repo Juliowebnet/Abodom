@@ -1,5 +1,8 @@
 import React from 'react'
 
+//importamos i18next para las traducciones
+import {useTranslation} from 'react-i18next'
+
 //Componentes
 import Header from '../components/header';
 import Footer from '../components/footer';
@@ -17,6 +20,7 @@ import Servicio3 from '../img/programa-nutricion.svg';
 
 
 function Productos(){
+    const [t, i18n] = useTranslation("global");
     return(
         <div>
             <Header/>
@@ -24,7 +28,7 @@ function Productos(){
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column">
-                            <h1 className="is-size-3 has-text-centered has-text-primary my-6"><b>NUESTROS PRODUCTOS</b></h1>
+                            <h1 className="is-size-3 has-text-centered has-text-primary my-6"><b>{t("products.products-title")}</b></h1>
                         </div>
                     </div>
                     <div className="columns is-centered box">
@@ -32,37 +36,37 @@ function Productos(){
                             <figure className="image mb-4">
                                 <img src={Fertilizante1} alt="Fertilizante Granulado"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Fertilizante Granulado</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-1")}</b></p>
                         </div>
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Fertilizante2} alt="Fertilizante Soluble"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Fertilizante Soluble</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-2")}</b></p>
                         </div>
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Fertilizante3} alt="Fertilizante Foliar"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Fertilizante Foliar</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-3")}</b></p>
                         </div>
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Fertilizante4} alt="Fertilizante Especial"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Fertilizantes Especiales</b> <br/>(formulas hechas según las necesidades de cada cliente)</p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-4-a")}</b> <br/>{t("products.product-4-b")}</p>
                         </div>
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Aminoacido} alt="Aminoacidos"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Aminoácidos</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-5")}</b></p>
                         </div>
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Fertilizante5} alt="Fertilizante Orgánico"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Fertilizante Orgánico</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-6")}</b></p>
                         </div>
                     </div>
                 </div>
@@ -71,7 +75,7 @@ function Productos(){
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column">
-                            <h1 className="is-size-3 has-text-centered has-text-primary my-4"><b>NUESTROS SERVICIOS</b></h1>
+                            <h1 className="is-size-3 has-text-centered has-text-primary my-4"><b>{t("products.services-title")}</b></h1>
                         </div>
                     </div>
                     <div className="columns is-centered box">
@@ -79,19 +83,19 @@ function Productos(){
                             <figure className="image mb-4">
                                 <img src={Servicio1} alt="Soporte Técnico"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>servicio técnico</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.service-1")}</b></p>
                         </div>
                         <div className="column is-2">
                             <figure className="image mb-4">
                                 <img src={Servicio2} alt="Análisis de Suelo"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Análisis de suelo  </b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.service-2")}</b></p>
                         </div>
                         <div className="column is-2">
                             <figure className="image mb-4">
                                 <img src={Servicio3} alt="Programas de Nutrición"/>
                             </figure>
-                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>Programas de nutrición</b></p>
+                            <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.service-3")}</b></p>
                         </div>
                     </div>
                 </div>
@@ -100,7 +104,7 @@ function Productos(){
                 <div className="container">
                     <div className="columns is-centered">
                         <div className="column">
-                            <h1 className="is-size-3 has-text-centered has-text-primary my-4"><b>NUESTRAS FÓRMULAS</b></h1>
+                            <h1 className="is-size-3 has-text-centered has-text-primary my-4"><b>{t("products.formulas-title")}</b></h1>
                         </div>
                     </div>
                     <div className="columns is-centered box has-background-primary">
@@ -110,15 +114,15 @@ function Productos(){
                                     <li>Urea</li>
                                     <li>UREDOM (33.5-0-0+12S)</li>
                                     <li>Sulfudom (31-0-0+14s)</li>
-                                    <li>Cloruro de Paotasio (KLC)</li>
-                                    <li>Sulfato de Potasio (SOP)</li>
+                                    <li>{t("products.formula-1")}</li>
+                                    <li>{t("products.formula-2")}</li>
                                     <li>DAP</li>
                                     <li>MAP</li>
-                                    <li>Sulfato de Amonio 50kg</li>
-                                    <li>Sulfato de Amonio 45kg</li>
-                                    <li>Sulfato de Zinc</li>
-                                    <li>Micronutrientes</li>
-                                    <li>Kiserite (Magnesio)</li>
+                                    <li>{t("products.formula-3")} 50kg</li>
+                                    <li>{t("products.formula-3")} 45kg</li>
+                                    <li>{t("products.formula-4")}</li>
+                                    <li>{t("products.formula-5")}</li>
+                                    <li>{t("products.formula-6")}</li>
                                     <li>15-15-15+11s</li>
                                     <li>21-0.1-21</li>
                                     <li>17-0.1-28</li>
