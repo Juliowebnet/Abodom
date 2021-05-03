@@ -123,17 +123,16 @@ function Productos(){
                                     <li>{t("products.formula-4")}</li>
                                     <li>{t("products.formula-5")}</li>
                                     <li>{t("products.formula-6")}</li>
-                                    <li>15-15-15+11s</li>
+                                    <li className="has-background-white"><span className="has-text-primary px-3">15-15-15+11s</span></li>
                                     <li>21-0.1-21</li>
                                     <li>17-0.1-28</li>
-                                    <li>Polifoska 21-0-0-35s+4mgo</li>
+                                    <li>15-15-15+4s</li>
                                 </ul>
                             </div>
                         </div>
                         <div className="column is-2">
                             <div className="content">
                                 <ul className="has-text-white has-text-weight-bold">
-                                    <li>15-15-15+4s</li>
                                     <li>20-0-20+4s</li>
                                     <li>20-5-20+4s</li>
                                     <li>16-8-16+4s</li>
@@ -149,13 +148,13 @@ function Productos(){
                                     <li>15-3-31</li>
                                     <li>15-10-10</li>
                                     <li>14-6-10</li>
+                                    <li>14-7-14</li>
                                 </ul>
                             </div>
                         </div>
-                        <div className="column is-3">
+                        <div className="column is-2">
                             <div className="content">
                                 <ul className="has-text-white has-text-weight-bold">
-                                    <li>14-7-14</li>
                                     <li>18-5-15+5s</li>
                                     <li>15-3-31+4s</li>
                                     <li>17-3-28+4s</li>
@@ -172,6 +171,21 @@ function Productos(){
                                     <li>16-10-10-+4s+1Zn</li>
                                     <li>16-12-16+4s+1Zn</li>
                                     <li>17-3-28+4s+1Zn</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div className="column is-4">
+                            <div className="content">
+                                <ul className="has-text-white has-text-weight-bold">
+                                    <li className="has-background-white"><span className="has-text-primary px-3">15-4-23</span></li>
+                                    <li className="has-background-white"><span className="has-text-primary px-3">17-6-18</span></li>
+                                    <li>15-30-15+ME</li>
+                                    <li>26-6-14+ME</li>
+                                    <li>15-5-30+ME</li>
+                                    <li>4-3-3+ 60% {t("products.formula-7")}</li>
+                                    <li>2-14-0+ 40% {t("products.formula-7")}</li>
+                                    <li>0-0-50+18S</li>
+                                    <li className="has-background-white"><span className="has-text-primary px-3">Polifoska 21-0-0-35s+4mgo</span></li>
                                 </ul>
                             </div>
                         </div>

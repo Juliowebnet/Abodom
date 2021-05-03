@@ -1,5 +1,5 @@
 .seccion-nosotros{
-    margin-bottom: 700px;
+    margin-bottom: 200px;
 }
 
 .contenedor-nosotros{
@@ -12,8 +12,20 @@
     border-radius: 50px;
 }
 
+@media only screen and (max-width: 900px){
+    .contenedor-nosotros{
+        top: 230px;
+    }
+    .seccion-nosotros{
+        margin-bottom: 200px;
+    }
+}
+
 @media only screen and (max-width: 700px){
     .contenedor-nosotros{
         top: 150px;
+    }
+    .seccion-nosotros{
+        margin-bottom: 400px;
     }
 }

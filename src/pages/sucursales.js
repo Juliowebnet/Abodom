@@ -80,6 +80,29 @@ import imgSucursal56 from '../img/sucursal12-a.jpg';
 import imgSucursal57 from '../img/sucursal12-b.jpg';
 import imgSucursal58 from '../img/sucursal12-c.jpg';
 import imgSucursal59 from '../img/sucursal12-d.jpg';
+//imagenes extras
+import imgSucursal60 from '../img/sucursal3-f.jpg';
+import imgSucursal61 from '../img/sucursal3-g.jpg';
+import imgSucursal62 from '../img/sucursal4-f.jpg';
+import imgSucursal63 from '../img/sucursal5-f.jpg';
+import imgSucursal64 from '../img/sucursal5-g.jpg';
+import imgSucursal65 from '../img/sucursal6-f.jpg';
+import imgSucursal66 from '../img/sucursal6-g.jpg';
+import imgSucursal67 from '../img/sucursal6-h.jpg';
+import imgSucursal68 from '../img/sucursal6-i.jpg';
+import imgSucursal69 from '../img/sucursal8-f.jpg';
+import imgSucursal70 from '../img/sucursal8-g.jpg';
+import imgSucursal71 from '../img/sucursal8-h.jpg';
+import imgSucursal72 from '../img/sucursal8-i.jpg';
+import imgSucursal73 from '../img/sucursal10-f.jpg';
+import imgSucursal74 from '../img/sucursal10-g.jpg';
+import imgSucursal75 from '../img/sucursal10-h.jpg';
+import imgSucursal76 from '../img/sucursal10-i.jpg';
+import imgSucursal77 from '../img/sucursal12-f.jpg';
+import imgSucursal78 from '../img/sucursal12-g.jpg';
+
+
+
 // import imgSucursal60 from '../img/sucursal12-e.jpg';
 
 

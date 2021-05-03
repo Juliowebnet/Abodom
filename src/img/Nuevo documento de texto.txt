@@ -1,0 +1,35 @@
+
+
+
+fotos azua: 
+sucursal1-a
+sucursal1-d
+sucursal2-c
+sucursal9-a
+sucursal10-c
+
+fotos hato mayor:
+"/img/sucursal3-e.jpg",
+"/img/sucursal12-a.jpg",
+"/img/sucursal8-d.jpg",
+"/img/sucursal3-d.jpg",(DSC09430  pendiente por optimizar)
+"/img/sucursal3-e.jpg"(DSC09445  pendiente por optimizar)
+
+
+villa la mata
+"/img/sucursal5-a.jpg",
+"/img/sucursal10-a.jpg",
+"/img/sucursal4-c.jpg", (DSC09867  pendiente por optimizar)
+"/img/sucursal11-b.jpg",
+"/img/sucursal11-d.jpg"
+
+Las Guaranas
+DJI_0547 pendiente por optimizar
+sucursal5-b
+DSC09444 pendiente por optimizar
+sucursal8-a
+sucursal11-d
+
+La Reforma
+sucursal5-c
+

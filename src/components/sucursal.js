@@ -1,7 +1,10 @@
 import React from 'react'
 
+//importamos i18next para las traducciones
+import {useTranslation} from 'react-i18next'
 
 function Sucursal(props) {
+    const [t, i18n] = useTranslation("global");
     return(
         <div className="sucursal">
             <div className="columns px-4">
@@ -54,7 +57,7 @@ function Sucursal(props) {
                     <div className="box has-text-centered has-text-grey">
                         <p className="has-text-primary mb-5 mt-4">
                             <b className="is-uppercase">{props.data.gerente}</b> 
-                            <p>(Gerentes de zona)</p>
+                            <p>({t("branch-offices.title")})</p>
                         </p>
                         <p>
                             Tel: {props.data.telefono}

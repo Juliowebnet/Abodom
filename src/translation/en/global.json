@@ -10,7 +10,7 @@
         "title-1": "WHY ARE OUR FERTILIZERS BETTER THAN CONVENTIONAL FERTILIZERS?",
         "text-icon-1": "PROVIDE MORE NUTRIENTS",
         "text-icon-2": "LOWEST COST",
-        "text-icon-3": "PROVIDE NUTRIENTS MUCH FASTER",
+        "text-icon-3": "100% NUTRIENT SUPPLY",
         "paragraph-icon": "Plan to use the entire surface of your garden. Through techniques such as vertical cultivation, cultivation in succession and intercropping you can make the most of the space available.",
         "title-2-a": "TIPS FOR ",
         "title-2-b": "CROP PLANNING",
@@ -28,7 +28,26 @@
     "about-us":{
         "title": "WHO ARE WE?",
         "text-1": "is your best option when it comes to sowing and obtaining an abundant crop. It is thanks to the quality of production that your products have. We are a company committed to offering a fast and personalized service with a staff with years of experience in the field.",
-        "text-2": "We have a wide variety of solutions for each type of soil according to your needs. Come and see for yourself the quality of our products."
+        "text-2": "We have a wide variety of solutions for each type of soil according to your needs. Come and see for yourself the quality of our products.",
+        "vision-title": "vision statement",
+        "vision-text": "To lead the marketing of fertilizers in the Caribbean, innovating solutions for sustainable agriculture, profitable for customers, employees and shareholders.",
+        "mission-title": "mission statement",
+        "mission-text": "We produce and commercialize fertilizers, with high quality standards, developing solutions for the agricultural sector through a personalized technical service, to guarantee the success of the crops.",
+        "value-title": "value statement",
+        "value-subtitle-1": "Teamwork: ",
+        "value-text-1": "We encourage collaboration in order to achieve our goals.",
+        "value-subtitle-2": "Service vocation: ",
+        "value-text-2": "We make the needs of external and internal customers our own, and give our all to achieve a memorable experience.",
+        "value-subtitle-3": "Passion: ",
+        "value-text-3": "We are passionate about doing things right.",
+        "value-subtitle-4": "Respect: ",
+        "value-text-4": "We treat people with dignity, valuing their ideas and opinions. We respect the environment in which we operate.",
+        "value-subtitle-5": "Innovation: ",
+        "value-text-5": "We work hard enough to create or reinvent products, services and processes, taking best practices as a reference, always seeking continuous improvement.",
+        "value-subtitle-6": "Quality: ",
+        "value-text-6": "We provide products and services with the highest quality standards.",
+        "value-subtitle-7": "Results Orientation: ",
+        "value-text-7": "We align our work to the achievement of the company's strategic objectives. We focus our efforts on concrete results."
     },
     "products":{
         "products-title": "OUR PRODUCTS",
@@ -49,7 +68,11 @@
         "formula-3": "Ammonium Sulphate",
         "formula-4": "Zinc Sulphate",
         "formula-5": "Micronutrients",
-        "formula-6": "Kiserite (Magnesium)"
+        "formula-6": "Kiserite (Magnesium)",
+        "formula-7": "organic matter"
+    },
+    "branch-offices":{
+        "title": "Area Representative"
     },
     "form":{
         "form-title": "CONTACT FORM",

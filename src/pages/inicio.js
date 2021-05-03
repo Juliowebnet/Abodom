@@ -10,7 +10,7 @@ import {useTranslation} from 'react-i18next'
 
 //imagenes
 import CostoIcon from '../img/costo-icon.svg';
-import TiempoIcon from '../img/tiempo-icon.svg';
+import ProcientoIcon from '../img/porciento-icon.svg';
 import NutrientesIcon from '../img/nutrientes-icon.svg';
 import Insta1 from '../img/insta1.png';
 import Insta2 from '../img/insta2.png';
@@ -58,7 +58,7 @@ function Inicio() {
                         </div>
                         <div className="column is-2 mx-6">
                             <figure className="image px-5 py-5">
-                                <img src={TiempoIcon} alt="Tiempo-icono"/>
+                                <img src={ProcientoIcon} alt="Tiempo-icono"/>
                             </figure>
                             <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("home.text-icon-3")}</b></p>
                         </div>
@@ -142,18 +142,27 @@ function Inicio() {
                         <div className="column is-4">
                             <div className="box">
                                 <h1 className="has-text-centered is-uppercase has-text-primary is-size-5 mb-4"><b>{t("home.form-title")}</b></h1>
-                                <form action="">
+                                <form action="https://abodom.us1.list-manage.com/subscribe/post?u=8de51e33f6c67ec822adfacf2&amp;id=e9210f505d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" novalidate>
                                     <div className="field">
                                         <div className="control has-icons-left">
-                                            <input className="input" type="email" name="" id="" placeholder="Email"/>
-                                            <span class="icon is-small is-left">
-                                                <i class="fas fa-envelope"></i>
+                                            <input className="input" type="email" name="EMAIL" id="mce-EMAIL" placeholder="Email"/>
+                                            <span className="icon is-small is-left">
+                                                <i className="fas fa-envelope"></i>
                                             </span>
                                         </div>
                                     </div>
+                                    {/* <div className="field">
+                                        <div className="control">
+                                            <div id="mce-responses">
+		                                        <div id="mce-error-response" style="display:none"></div>
+		                                        <div id="mce-success-response" style="display:none"></div>
+	                                        </div>    
+                                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_8de51e33f6c67ec822adfacf2_e9210f505d" tabindex="-1" value=""></input></div>
+                                        </div>
+                                    </div> */}
                                     <div className="field">
                                         <div className="control">
-                                            <button type="submit" className="button is-primary is-fullwidth">{t("home.form-button")}</button>
+                                            <button type="submit" name="subscribe" id="mc-embedded-subscribe" className="button is-primary is-fullwidth">{t("home.form-button")}</button>
                                         </div>
                                     </div>
                                 </form>

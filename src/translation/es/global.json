@@ -10,7 +10,7 @@
         "title-1": "¿POR QUÉ NUESTROS ABONOS Y FERTILIZANTES SON MEJORES QUE EL ABONO CONVENCIONAL?",
         "text-icon-1": "APORTAN MAYOR CANTIDAD DE NUTRIENTES",
         "text-icon-2": "MENOR COSTO",
-        "text-icon-3": "APORTAN NUTRIENTES MUCHO MÁS RÁPIDO",
+        "text-icon-3": "APORTA 100 % DE NUTRIENTES",
         "paragraph-icon": "Planee utilizar toda la superficie de su huerta. Por medio de técnicas como el cultivo vertical, el cultivo en sucesión y el cultivo intercalado podrá sacar el máximo provecho del espacio disponible.",
         "title-2-a": "CONSEJOS PARA EL ",
         "title-2-b": "PLANEAMIENTO DE CULTIVOS",
@@ -28,7 +28,26 @@
     "about-us":{
         "title": "¿QUIENES SOMOS?",
         "text-1": "es tu mejor opción a la hora de sembrar y obtener un cultivo abundante. Es gracias a la calidad de producción que tienen sus productos. Somos una empresa comprometida con ofrecer un servicio rápido y personalizado con un personal con años de experiencia en la materia.",
-        "text-2": "Contamos con una gran variedad de soluciones para cada tipo de suelo según su necesidad. Ven y comprueba tú mismo la calidad de nuestros productos."
+        "text-2": "Contamos con una gran variedad de soluciones para cada tipo de suelo según su necesidad. Ven y comprueba tú mismo la calidad de nuestros productos.",
+        "vision-title": "visión",
+        "vision-text": "Liderar la comercialización de fertilizantes en el Caribe, innovando soluciones para una agricultura sostenible, rentable para clientes, colaboradores y accionistas.",
+        "mission-title": "misión",
+        "mission-text": "Producimos y comercializamos fertilizantes, con altos estándares de calidad, desarrollando soluciones para el sector agrícola a través de un servicio técnico personalizado, para garantizar el éxito de los cultivos.",
+        "value-title": "valores",
+        "value-subtitle-1": "Trabajo en equipo: ",
+        "value-text-1": "Fomentamos la colaboración para poder alcanzar las metas trazadas.",
+        "value-subtitle-2": "Vocación de servicio: ",
+        "value-text-2": "Hacemos nuestras las necesidades de los clientes externos e internos, y damos todo por conseguir una experiencia memorable.",
+        "value-subtitle-3": "Pasión: ",
+        "value-text-3": "Somos apasionados por hacer las cosas bien hechas.",
+        "value-subtitle-4": "Respeto: ",
+        "value-text-4": "Tratamos a las personas con dignidad, valorando sus ideas y opiniones. Respetamos al medioambiente donde actuamos.",
+        "value-subtitle-5": "Innovación: ",
+        "value-text-5": "Trabajamos con suficiente empeño para crear o reinventar productos, servicios y procesos, tomando como referencia las mejores prácticas, en busca siempre de la mejora continua.",
+        "value-subtitle-6": "Calidad: ",
+        "value-text-6": "Brindamos productos y servicios con los más altos estándares de calidad.",
+        "value-subtitle-7": "Orientación a Resultados: ",
+        "value-text-7": "Alineamos nuestro trabajo al logro de los objetivos estratégicos de la empresa. Concentramos los esfuerzos hacia resultados concretos."
     },
     "products":{
         "products-title": "NUESTROS PRODUCTOS",
@@ -49,7 +68,11 @@
         "formula-3": "Sulfato de Amonio",
         "formula-4": "Sulfato de Zinc",
         "formula-5": "Micronutrientes",
-        "formula-6": "Kiserite (Magnesio)"
+        "formula-6": "Kiserite (Magnesio)",
+        "formula-7": "de materia orgánica"
+    },
+    "branch-offices":{
+        "title": "Representante de Zona"
     },
     "form":{
         "form-title": "FORMULARIO DE CONTACTO",
