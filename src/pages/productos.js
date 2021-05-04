@@ -31,7 +31,7 @@ function Productos(){
                             <h1 className="is-size-3 has-text-centered has-text-primary my-6"><b>{t("products.products-title")}</b></h1>
                         </div>
                     </div>
-                    <div className="columns is-centered box">
+                    <div className="columns is-centered box animation-content">
                         <div className="column">
                             <figure className="image mb-4">
                                 <img src={Fertilizante1} alt="Fertilizante Granulado"/>
@@ -68,6 +68,84 @@ function Productos(){
                             </figure>
                             <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-6")}</b></p>
                         </div>
+                        {/* <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Fertilizante1} alt="Fertilizante Granulado"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-1")}</b></p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Fertilizante2} alt="Fertilizante Soluble"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-2")}</b></p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Fertilizante3} alt="Fertilizante Foliar"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-3")}</b></p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Fertilizante4} alt="Fertilizante Especial"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-4-a")}</b> <br/>{t("products.product-4-b")}</p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Aminoacido} alt="Aminoacidos"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-5")}</b></p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="column animated">
+                            <div className="animated-1">
+                                <figure className="image mb-4">
+                                    <img src={Fertilizante5} alt="Fertilizante Orgánico"/>
+                                </figure>
+                                <p className="has-text-centered is-uppercase has-text-primary is-size-7"><b>{t("products.product-6")}</b></p>
+                            </div>
+                            <div className="animated-2">
+                                <div className="animated-text">
+                                    <p>texto</p>
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
                 </div>
             </section>

@@ -1,0 +1,46 @@
+.animation-content{
+    perspective: 700px;
+}
+
+.animated{
+    transform-style: preserve-3d;
+    transition: 1s;
+    position: relative;
+}
+
+.animated:hover{
+    // display: none;
+    transform: rotateY(180deg);
+    transition: 1s;
+}
+.animated-1{
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    transform: translateZ(1px);
+    // transform: translateX(85px);
+}
+
+.animated-2{
+    position: absolute;
+    background-color: #fff;
+    height: 100%;
+    width: 100%;
+    left: 0.7rem;
+    transform: rotateY(180deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // transform: translateY(-275px);
+}
+
+.animated-text{
+    color: #fff;
+    background-color: $primary;
+    width: 99%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
